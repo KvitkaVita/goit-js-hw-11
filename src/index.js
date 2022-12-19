@@ -16,7 +16,7 @@ let searchQuery = '';
 function onSearch(e) {
   e.preventDefault();
 
-  searchQuery = e.currentTarget.elements.query.value.trim();
+  searchQuery = e.currentTarget.elements.searchQuery.value.trim();
 
   resetPage();
 
